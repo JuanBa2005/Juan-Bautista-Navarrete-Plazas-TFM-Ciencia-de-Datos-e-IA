@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: tallerpredict
+      POSTGRES_USER: tallerpredict
+      POSTGRES_PASSWORD: cambiar_esta_clave
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tallerpredict -d tallerpredict"]
+      interval: 5s
+      retries: 10
+volumes:
+  pgdata:
