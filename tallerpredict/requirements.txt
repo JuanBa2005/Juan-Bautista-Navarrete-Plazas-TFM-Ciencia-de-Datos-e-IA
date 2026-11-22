@@ -1,5 +1,4 @@
-fastapi>=0.110,<1
-uvicorn>=0.28,<1
-psycopg[binary]>=3.2,<4
-python-multipart>=0.0.9,<1
-jinja2>=3.1,<4
+# TallerPredict - dependencias Python para la futura conexion a PostgreSQL.
+# Versiones directas fijadas; no necesarias para ejecutar los archivos .sql con psql.
+# Instalar con: python -m pip install -r requirements.txt
+psycopg[binary]==3.3.9
