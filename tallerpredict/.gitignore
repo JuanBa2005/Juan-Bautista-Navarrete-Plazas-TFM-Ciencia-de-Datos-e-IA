@@ -1,0 +1,6 @@
+# Datos cedidos por un taller: mantener fuera de repositorios públicos
+/datos/*.csv
+/datos/processed/
+# Entorno local
+.venv/
+__pycache__/
