@@ -1,0 +1,50 @@
+{
+  "filas": 2640,
+  "columnas_gold": 14,
+  "repuestos": 80,
+  "meses_referencia": 33,
+  "fecha_inicial_referencia": "2021-03",
+  "fecha_final_referencia": "2023-11",
+  "fechas_objetivo": [
+    "2021-04",
+    "2023-12"
+  ],
+  "nulos_por_columna": {
+    "part_id": 0,
+    "part_code": 0,
+    "part_name": 0,
+    "unit": 0,
+    "month_date": 0,
+    "calendar_year": 0,
+    "calendar_month": 0,
+    "unit_cost": 0,
+    "supplier_lead_days": 0,
+    "lag_1_units": 0,
+    "lag_2_units": 0,
+    "lag_3_units": 0,
+    "rolling_3_units": 0,
+    "target_next_month_units": 0,
+    "target_month": 0
+  },
+  "duplicados_repuesto_mes": 0,
+  "pares_repuesto_mes_ausentes": 0,
+  "fechas_calendario_inconsistentes": 0,
+  "valores_negativos": {
+    "lag_1_units": 0,
+    "lag_2_units": 0,
+    "lag_3_units": 0,
+    "target_next_month_units": 0
+  },
+  "desviaciones_media_movil_mayores_0_0001": 0,
+  "porcentaje_objetivo_cero": 66.21,
+  "media_objetivo": 1.0647,
+  "mediana_objetivo": 0.0,
+  "maximo_objetivo": 18.5,
+  "unidades": {
+    "ud": 2145,
+    "l": 231,
+    "kit": 132,
+    "juego": 99,
+    "kg": 33
+  }
+}

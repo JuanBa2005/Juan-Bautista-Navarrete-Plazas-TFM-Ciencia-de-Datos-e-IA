@@ -1,0 +1,57 @@
+{
+  "objetivo": "target_next_month_units",
+  "variables_entrada": [
+    "part_id",
+    "lag_1_units",
+    "lag_2_units",
+    "lag_3_units",
+    "rolling_3_units",
+    "target_calendar_month"
+  ],
+  "variable_categorica": [
+    "part_id"
+  ],
+  "variables_numericas": [
+    "lag_1_units",
+    "lag_2_units",
+    "lag_3_units",
+    "rolling_3_units",
+    "target_calendar_month"
+  ],
+  "particiones": [
+    {
+      "particion": "train",
+      "filas": 2160,
+      "repuestos": 80,
+      "meses_referencia": 27,
+      "inicio_referencia": "2021-03",
+      "fin_referencia": "2023-05",
+      "inicio_objetivo": "2021-04",
+      "fin_objetivo": "2023-06",
+      "porcentaje_objetivos_cero": 66.39
+    },
+    {
+      "particion": "validation",
+      "filas": 240,
+      "repuestos": 80,
+      "meses_referencia": 3,
+      "inicio_referencia": "2023-06",
+      "fin_referencia": "2023-08",
+      "inicio_objetivo": "2023-07",
+      "fin_objetivo": "2023-09",
+      "porcentaje_objetivos_cero": 73.75
+    },
+    {
+      "particion": "test",
+      "filas": 240,
+      "repuestos": 80,
+      "meses_referencia": 3,
+      "inicio_referencia": "2023-09",
+      "fin_referencia": "2023-11",
+      "inicio_objetivo": "2023-10",
+      "fin_objetivo": "2023-12",
+      "porcentaje_objetivos_cero": null
+    }
+  ],
+  "nota": "No entrenar ni ajustar transformaciones con test. Consumos del mes de referencia conocidos al cierre."
+}

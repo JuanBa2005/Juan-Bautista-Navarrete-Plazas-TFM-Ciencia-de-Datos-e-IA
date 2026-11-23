@@ -1,0 +1,4 @@
+modelo,n,mae,rmse,sesgo_medio,porcentaje_reales_cero,mae_consumo_positivo,fallos_cero_ante_consumo_positivo,porcentaje_fallos_cero_sobre_positivos,wape_porcentaje,mae_escalado_macro_repuesto
+siempre_cero,240,0.67458,1.75812,-0.67458,73.75,2.56984,63,100.0,100.0,0.2715
+ultimo_mes,240,0.85708,2.04703,0.21417,73.75,2.00317,22,34.92063,127.05374,0.38923
+media_tres_meses,240,0.74576,1.62988,0.31937,73.75,1.51296,6,9.52381,110.55176,0.34803

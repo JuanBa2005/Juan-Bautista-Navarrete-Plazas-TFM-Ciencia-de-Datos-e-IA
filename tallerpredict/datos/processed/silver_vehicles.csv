@@ -1,0 +1,151 @@
+id,vehicle_key,brand,model,displacement_cc,fuel,manufacture_year
+1,VEH-0001,Opel,Astra,1598.0,gasoil,2002
+2,VEH-0002,SEAT,Ateca,1498.0,gasolina,2016
+3,VEH-0003,Renault,Zoe,,electrico,2019
+4,VEH-0004,Hyundai,i30,1591.0,gasolina,2019
+5,VEH-0005,Toyota,Corolla,1798.0,hibrido_gasolina,2019
+6,VEH-0006,SEAT,Ibiza,1198.0,gasolina,2011
+7,VEH-0007,Mercedes-Benz,Clase A,1332.0,gasolina,2021
+8,VEH-0008,Audi,A3,1968.0,gasoil,2004
+9,VEH-0009,Hyundai,Tucson,1598.0,hibrido_gasolina,2011
+10,VEH-0010,Ford,Fiesta,1242.0,gasolina,2015
+11,VEH-0011,Toyota,RAV4,2487.0,hibrido_gasolina,2014
+12,VEH-0012,Hyundai,i30,1591.0,gasolina,2020
+13,VEH-0013,SEAT,Arona,1000.0,gasolina,2020
+14,VEH-0014,Peugeot,2008,1199.0,gasolina,2013
+15,VEH-0015,Toyota,C-HR,1798.0,hibrido_gasolina,2016
+16,VEH-0016,Kia,Ceed,1598.0,gasoil,2007
+17,VEH-0017,Dacia,Duster,1461.0,gasoil,2006
+18,VEH-0018,Opel,Astra,1598.0,gasoil,2017
+19,VEH-0019,Renault,Captur,1332.0,gasolina,2013
+20,VEH-0020,Ford,Focus,1499.0,gasoil,2021
+21,VEH-0021,Audi,A3,1968.0,gasoil,2017
+22,VEH-0022,Toyota,RAV4,2487.0,hibrido_gasolina,2015
+23,VEH-0023,SEAT,Arona,1000.0,gasolina,2017
+24,VEH-0024,Toyota,RAV4,2487.0,hibrido_gasolina,2017
+25,VEH-0025,Volkswagen,ID.3,,electrico,2020
+26,VEH-0026,Citroën,C4,1560.0,gasoil,2002
+27,VEH-0027,Ford,Kuga,1498.0,gasolina,2006
+28,VEH-0028,Nissan,Qashqai,1461.0,gasoil,2011
+29,VEH-0029,Peugeot,308,1499.0,gasoil,2007
+30,VEH-0030,Hyundai,Kona Eléctrico,,electrico,2018
+31,VEH-0031,Peugeot,208,1199.0,gasolina,2021
+32,VEH-0032,Volkswagen,Tiguan,1968.0,gasoil,2021
+33,VEH-0033,Nissan,Leaf,,electrico,2015
+34,VEH-0034,Nissan,Leaf,,electrico,2016
+35,VEH-0035,Peugeot,208,1199.0,gasolina,2005
+36,VEH-0036,Toyota,Corolla,1798.0,hibrido_gasolina,2021
+37,VEH-0037,SEAT,León,1598.0,gasoil,2019
+38,VEH-0038,BMW,Serie 3,1995.0,gasoil,2013
+39,VEH-0039,Renault,Clio,1461.0,gasoil,2013
+40,VEH-0040,Renault,Mégane,1461.0,gasoil,2014
+41,VEH-0041,Renault,Zoe,,electrico,2013
+42,VEH-0042,Volkswagen,Polo,1197.0,gasolina,2006
+43,VEH-0043,Peugeot,e-208,,electrico,2021
+44,VEH-0044,Ford,Fiesta,1242.0,gasolina,2019
+45,VEH-0045,Tesla,Model 3,,electrico,2021
+46,VEH-0046,Kia,Ceed,1598.0,gasoil,2015
+47,VEH-0047,Kia,Niro,1580.0,hibrido_gasolina,2016
+48,VEH-0048,Volkswagen,Golf,1968.0,gasoil,2004
+49,VEH-0049,Citroën,C3,1199.0,gasolina,2020
+50,VEH-0050,Volkswagen,Polo,1197.0,gasolina,2009
+51,VEH-0051,Nissan,Leaf,,electrico,2018
+52,VEH-0052,Nissan,Leaf,,electrico,2012
+53,VEH-0053,Citroën,C3,1199.0,gasolina,2017
+54,VEH-0054,Kia,Sportage,1598.0,hibrido_gasoil,2021
+55,VEH-0055,Nissan,Leaf,,electrico,2021
+56,VEH-0056,Peugeot,e-208,,electrico,2020
+57,VEH-0057,Peugeot,308,1499.0,gasoil,2012
+58,VEH-0058,Toyota,Corolla,1798.0,hibrido_gasolina,2020
+59,VEH-0059,Citroën,C3,1199.0,gasolina,2014
+60,VEH-0060,Dacia,Duster,1461.0,gasoil,2019
+61,VEH-0061,Toyota,Corolla,1798.0,hibrido_gasolina,2019
+62,VEH-0062,Kia,Ceed,1598.0,gasoil,2006
+63,VEH-0063,SEAT,Ateca,1498.0,gasolina,2016
+64,VEH-0064,Peugeot,2008,1199.0,gasolina,2013
+65,VEH-0065,Toyota,C-HR,1798.0,hibrido_gasolina,2019
+66,VEH-0066,SEAT,Ibiza,1198.0,gasolina,2019
+67,VEH-0067,Peugeot,2008,1199.0,gasolina,2020
+68,VEH-0068,Volkswagen,Golf,1968.0,gasoil,2020
+69,VEH-0069,Volkswagen,Golf,1968.0,gasoil,2020
+70,VEH-0070,BMW,Serie 3,1995.0,gasoil,2020
+71,VEH-0071,SEAT,Ateca,1498.0,gasolina,2016
+72,VEH-0072,Kia,Niro,1580.0,hibrido_gasolina,2020
+73,VEH-0073,SEAT,León,1598.0,gasoil,2005
+74,VEH-0074,SEAT,León,1598.0,gasoil,2013
+75,VEH-0075,Peugeot,308,1499.0,gasoil,2004
+76,VEH-0076,Peugeot,e-208,,electrico,2020
+77,VEH-0077,Peugeot,208,1199.0,gasolina,2015
+78,VEH-0078,Tesla,Model 3,,electrico,2019
+79,VEH-0079,Peugeot,e-208,,electrico,2020
+80,VEH-0080,Hyundai,i30,1591.0,gasolina,2017
+81,VEH-0081,Ford,Focus,1499.0,gasoil,2015
+82,VEH-0082,Volkswagen,Polo,1197.0,gasolina,2012
+83,VEH-0083,Ford,Kuga,1498.0,gasolina,2004
+84,VEH-0084,Nissan,Leaf,,electrico,2020
+85,VEH-0085,Volkswagen,Tiguan,1968.0,gasoil,2005
+86,VEH-0086,Ford,Focus,1499.0,gasoil,2004
+87,VEH-0087,Ford,Focus,1499.0,gasoil,2015
+88,VEH-0088,Kia,Ceed,1598.0,gasoil,2004
+89,VEH-0089,Mercedes-Benz,Clase A,1332.0,gasolina,2008
+90,VEH-0090,Renault,Zoe,,electrico,2013
+91,VEH-0091,Renault,Zoe,,electrico,2013
+92,VEH-0092,Peugeot,308,1499.0,gasoil,2016
+93,VEH-0093,Hyundai,Tucson,1598.0,hibrido_gasolina,2018
+94,VEH-0094,Dacia,Sandero,1000.0,gasolina,2009
+95,VEH-0095,Opel,Astra,1598.0,gasoil,2017
+96,VEH-0096,Toyota,C-HR,1798.0,hibrido_gasolina,2020
+97,VEH-0097,Opel,Corsa,1199.0,gasolina,2010
+98,VEH-0098,Hyundai,Kona Eléctrico,,electrico,2021
+99,VEH-0099,Peugeot,308,1499.0,gasoil,2021
+100,VEH-0100,Volkswagen,ID.3,,electrico,2020
+101,VEH-0101,Dacia,Duster,1461.0,gasoil,2013
+102,VEH-0102,Renault,Captur,1332.0,gasolina,2013
+103,VEH-0103,Ford,Fiesta,1242.0,gasolina,2003
+104,VEH-0104,Nissan,Qashqai,1461.0,gasoil,2002
+105,VEH-0105,Toyota,C-HR,1798.0,hibrido_gasolina,2016
+106,VEH-0106,Volkswagen,Polo,1197.0,gasolina,2021
+107,VEH-0107,BMW,Serie 3,1995.0,gasoil,2017
+108,VEH-0108,Audi,A3,1968.0,gasoil,2020
+109,VEH-0109,BMW,Serie 3,1995.0,gasoil,2010
+110,VEH-0110,Hyundai,i30,1591.0,gasolina,2013
+111,VEH-0111,SEAT,Ateca,1498.0,gasolina,2016
+112,VEH-0112,Kia,Ceed,1598.0,gasoil,2019
+113,VEH-0113,Dacia,Sandero,1000.0,gasolina,2002
+114,VEH-0114,Renault,Captur,1332.0,gasolina,2018
+115,VEH-0115,Opel,Corsa,1199.0,gasolina,2015
+116,VEH-0116,Dacia,Sandero,1000.0,gasolina,2002
+117,VEH-0117,Ford,Fiesta,1242.0,gasolina,2021
+118,VEH-0118,Nissan,Qashqai,1461.0,gasoil,2011
+119,VEH-0119,Audi,A3,1968.0,gasoil,2013
+120,VEH-0120,Volkswagen,Polo,1197.0,gasolina,2008
+121,VEH-0121,Renault,Clio,1461.0,gasoil,2005
+122,VEH-0122,Nissan,Qashqai,1461.0,gasoil,2019
+123,VEH-0123,Citroën,C3,1199.0,gasolina,2015
+124,VEH-0124,SEAT,Arona,1000.0,gasolina,2017
+125,VEH-0125,SEAT,Ateca,1498.0,gasolina,2021
+126,VEH-0126,Kia,Niro,1580.0,hibrido_gasolina,2016
+127,VEH-0127,Volkswagen,Polo,1197.0,gasolina,2018
+128,VEH-0128,Renault,Mégane,1461.0,gasoil,2021
+129,VEH-0129,Tesla,Model 3,,electrico,2020
+130,VEH-0130,Dacia,Sandero,1000.0,gasolina,2011
+131,VEH-0131,Renault,Zoe,,electrico,2013
+132,VEH-0132,Hyundai,Tucson,1598.0,hibrido_gasolina,2005
+133,VEH-0133,SEAT,Ibiza,1198.0,gasolina,2015
+134,VEH-0134,Peugeot,e-208,,electrico,2020
+135,VEH-0135,Mercedes-Benz,Clase A,1332.0,gasolina,2002
+136,VEH-0136,Hyundai,Tucson,1598.0,hibrido_gasolina,2020
+137,VEH-0137,Citroën,C4,1560.0,gasoil,2005
+138,VEH-0138,Citroën,C3,1199.0,gasolina,2017
+139,VEH-0139,Peugeot,2008,1199.0,gasolina,2013
+140,VEH-0140,BMW,Serie 3,1995.0,gasoil,2020
+141,VEH-0141,Volkswagen,Polo,1197.0,gasolina,2021
+142,VEH-0142,Opel,Astra,1598.0,gasoil,2017
+143,VEH-0143,Volkswagen,Polo,1197.0,gasolina,2013
+144,VEH-0144,Toyota,C-HR,1798.0,hibrido_gasolina,2018
+145,VEH-0145,Volkswagen,Golf,1968.0,gasoil,2019
+146,VEH-0146,Peugeot,2008,1199.0,gasolina,2021
+147,VEH-0147,Opel,Astra,1598.0,gasoil,2016
+148,VEH-0148,Kia,Ceed,1598.0,gasoil,2021
+149,VEH-0149,Mercedes-Benz,Clase A,1332.0,gasolina,2019
+150,VEH-0150,Opel,Corsa,1199.0,gasolina,2014

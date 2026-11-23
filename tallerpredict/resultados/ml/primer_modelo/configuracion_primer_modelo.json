@@ -1,0 +1,32 @@
+{
+  "modelo": "Ridge con OneHotEncoder(part_id) y StandardScaler(variables numéricas)",
+  "alpha": 10.0,
+  "objetivo": "target_next_month_units",
+  "variables": [
+    "part_id",
+    "lag_1_units",
+    "lag_2_units",
+    "lag_3_units",
+    "rolling_3_units",
+    "target_calendar_month"
+  ],
+  "filas_entrenamiento": 2160,
+  "filas_validacion": 240,
+  "filas_test_reservadas": 240,
+  "fechas_referencia_train": [
+    "2021-03-01",
+    "2023-05-01"
+  ],
+  "fechas_referencia_validation": [
+    "2023-06-01",
+    "2023-08-01"
+  ],
+  "seleccion_modelo": "No se ha seleccionado un modelo definitivo. Comparación en validación.",
+  "advertencias": [
+    "No comparar MAE/RMSE mezclados como magnitudes físicas entre unidades.",
+    "El MAE escalado usa max(media objetivo por repuesto en train, 1).",
+    "Las métricas en meses positivos son condicionadas al valor real: no son una métrica operativa única.",
+    "No se han utilizado etiquetas del conjunto test.",
+    "Un primer experimento de regresión no garantiza utilidad para el MVP."
+  ]
+}

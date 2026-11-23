@@ -1,0 +1,105 @@
+{
+  "fuente": "CSV adjuntos en datos/ (origen primario externo sin acreditar)",
+  "bronze": {
+    "vehicles": {
+      "filas": 150,
+      "columnas": 7
+    },
+    "repair_types": {
+      "filas": 25,
+      "columnas": 2
+    },
+    "parts": {
+      "filas": 80,
+      "columnas": 6
+    },
+    "work_orders": {
+      "filas": 1160,
+      "columnas": 5
+    },
+    "repair_events": {
+      "filas": 1617,
+      "columnas": 5
+    },
+    "part_usage": {
+      "filas": 2344,
+      "columnas": 4
+    },
+    "inventory_movements": {
+      "filas": 3206,
+      "columnas": 8
+    }
+  },
+  "silver": {
+    "vehicles": {
+      "filas": 150,
+      "ids_duplicados": 0,
+      "nulos_por_campo": {
+        "displacement_cc": 23
+      }
+    },
+    "repair_types": {
+      "filas": 25,
+      "ids_duplicados": 0,
+      "nulos_por_campo": {}
+    },
+    "parts": {
+      "filas": 80,
+      "ids_duplicados": 0,
+      "nulos_por_campo": {}
+    },
+    "work_orders": {
+      "filas": 1160,
+      "ids_duplicados": 0,
+      "nulos_por_campo": {
+        "exit_at": 35
+      }
+    },
+    "repair_events": {
+      "filas": 1617,
+      "ids_duplicados": 0,
+      "nulos_por_campo": {}
+    },
+    "part_usage": {
+      "filas": 2344,
+      "ids_duplicados": 0,
+      "nulos_por_campo": {}
+    },
+    "inventory_movements": {
+      "filas": 3206,
+      "ids_duplicados": 0,
+      "nulos_por_campo": {
+        "repair_event_id": 862
+      }
+    }
+  },
+  "gold": {
+    "filas": 2640,
+    "columnas": [
+      "part_id",
+      "part_code",
+      "part_name",
+      "unit",
+      "month_date",
+      "calendar_year",
+      "calendar_month",
+      "unit_cost",
+      "supplier_lead_days",
+      "lag_1_units",
+      "lag_2_units",
+      "lag_3_units",
+      "rolling_3_units",
+      "target_next_month_units"
+    ],
+    "piezas": 80,
+    "primer_mes_referencia": "2021-03-01",
+    "ultimo_mes_referencia": "2023-11-01",
+    "horizonte_objetivo": "un mes después del mes de referencia",
+    "rango_observado": [
+      "2021-01",
+      "2023-12"
+    ],
+    "unidades_objetivo_totales": 2810.9,
+    "nulos": 0
+  }
+}

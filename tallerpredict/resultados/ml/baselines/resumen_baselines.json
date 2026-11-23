@@ -1,0 +1,30 @@
+{
+  "gold": "datos\\processed\\gold_consumo_mensual_repuestos.csv",
+  "objetivo": "target_next_month_units",
+  "periodos_referencia": {
+    "train": [
+      "2021-03-01",
+      "2023-05-01"
+    ],
+    "validation": [
+      "2023-06-01",
+      "2023-08-01"
+    ]
+  },
+  "filas_train": 2160,
+  "filas_validacion": 240,
+  "filas_test_reservadas_sin_evaluar": 240,
+  "baselines": {
+    "siempre_cero": "0",
+    "ultimo_mes": "lag_1_units",
+    "media_tres_meses": "rolling_3_units"
+  },
+  "criterio_comparacion_orientativo": "media sobre piezas del MAE validación / max(media objetivo TRAIN pieza, 1)",
+  "mejor_baseline_segun_criterio_orientativo": "siempre_cero",
+  "cautelas": [
+    "Las unidades no son agregables entre sí.",
+    "Un buen error medio puede ocultar fallos en consumos positivos.",
+    "No usar etiquetas de TEST para elegir baselines ni hiperparámetros.",
+    "La comparabilidad del MAE escalado depende del suelo de 1 unidad."
+  ]
+}
