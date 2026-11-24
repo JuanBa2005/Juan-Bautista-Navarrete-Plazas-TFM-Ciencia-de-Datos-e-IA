@@ -7,7 +7,7 @@ from pathlib import Path
 import json
 import pandas as pd
 
-BASE = Path(__file__).resolve().parents[1]
+BASE = Path(__file__).resolve().parents[2]
 RAW = BASE / 'datos'
 OUT = RAW / 'processed'
 FILES = ('vehicles', 'repair_types', 'parts', 'work_orders', 'repair_events', 'part_usage', 'inventory_movements')
