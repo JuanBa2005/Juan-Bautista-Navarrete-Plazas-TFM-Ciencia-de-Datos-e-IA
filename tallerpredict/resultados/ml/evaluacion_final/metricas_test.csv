@@ -1,0 +1,4 @@
+modelo,n,mae_escalado_macro_repuesto,mae_escalado_macro_positivos,n_positivos
+siempre_cero,240,0.701927,1.688072,103
+media_tres_meses,240,0.50148,1.092188,103
+random_forest,240,0.506915,0.933911,103

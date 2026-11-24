@@ -1,0 +1,6 @@
+{
+  "modelo_preseleccionado": "media_tres_meses",
+  "supera_umbral_5pct_frente_a_cero": true,
+  "mejora_relativa_frente_a_cero_pct": 28.55665347164092,
+  "advertencia": "La utilidad de inventario no queda demostrada por estas métricas; no ajustar el modelo a test."
+}

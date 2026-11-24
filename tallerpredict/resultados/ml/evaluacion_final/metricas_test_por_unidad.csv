@@ -1,0 +1,16 @@
+modelo,unit,n,mae,sesgo
+media_tres_meses,juego,9,2.148144,-0.2963
+media_tres_meses,kg,3,1.444433,1.444433
+media_tres_meses,kit,12,0.916675,-0.638892
+media_tres_meses,l,21,3.063495,-1.682543
+media_tres_meses,ud,195,0.694019,-0.434188
+random_forest,juego,9,1.912605,-0.389991
+random_forest,kg,3,1.515149,0.170526
+random_forest,kit,12,0.781468,-0.263237
+random_forest,l,21,2.658181,-2.118056
+random_forest,ud,195,0.711298,-0.208171
+siempre_cero,juego,9,2.888889,-2.888889
+siempre_cero,kg,3,3.9,-3.9
+siempre_cero,kit,12,1.5,-1.5
+siempre_cero,l,21,4.547619,-4.547619
+siempre_cero,ud,195,1.041026,-1.041026

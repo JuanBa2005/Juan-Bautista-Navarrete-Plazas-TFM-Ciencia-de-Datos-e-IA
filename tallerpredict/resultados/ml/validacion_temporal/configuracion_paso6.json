@@ -1,0 +1,63 @@
+{
+  "test_referencia_inicio": "2023-09-01",
+  "test_reservado": "No se utilizan objetivos de referencia desde septiembre de 2023",
+  "ventanas": [
+    {
+      "fold": "V1",
+      "train_fin": "2022-08-01",
+      "validation_inicio": "2022-09-01",
+      "validation_fin": "2022-11-01",
+      "n_train": 1440,
+      "n_validation": 240
+    },
+    {
+      "fold": "V2",
+      "train_fin": "2022-11-01",
+      "validation_inicio": "2022-12-01",
+      "validation_fin": "2023-02-01",
+      "n_train": 1680,
+      "n_validation": 240
+    },
+    {
+      "fold": "V3",
+      "train_fin": "2023-02-01",
+      "validation_inicio": "2023-03-01",
+      "validation_fin": "2023-05-01",
+      "n_train": 1920,
+      "n_validation": 240
+    },
+    {
+      "fold": "V4",
+      "train_fin": "2023-05-01",
+      "validation_inicio": "2023-06-01",
+      "validation_fin": "2023-08-01",
+      "n_train": 2160,
+      "n_validation": 240
+    }
+  ],
+  "variables": [
+    "part_id",
+    "lag_1_units",
+    "lag_2_units",
+    "lag_3_units",
+    "rolling_3_units",
+    "target_calendar_month"
+  ],
+  "ridge_alpha": 10.0,
+  "random_forest": {
+    "n_estimators": 300,
+    "max_depth": 12,
+    "min_samples_leaf": 3,
+    "max_features": 1.0,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "advertencias": [
+    "Las escalas se calculan con TRAIN de cada ventana.",
+    "Las métricas mixtas de unidades físicas son solo exploratorias.",
+    "Los umbrales 0, 0.5 y 1 son diagnósticos; no se usan para seleccionar reglas operativas.",
+    "Las predicciones de una ventana comparten datos de entrenamiento con ventanas previas.",
+    "Las magnitudes observadas representan consumo, no necesariamente demanda sin censura.",
+    "No se eligen hiperparámetros a partir del conjunto test."
+  ]
+}

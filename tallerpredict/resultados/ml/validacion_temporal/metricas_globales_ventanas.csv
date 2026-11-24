@@ -1,0 +1,6 @@
+modelo,n,mae_escalado_macro_repuesto,mae_escalado_macro_repuesto_positivos,mae_escalado_macro_repuesto_ceros,mae_mixto_diagnostico,rmse_mixto_diagnostico,sesgo_mixto_diagnostico,porcentaje_ceros_real,n_positivos
+siempre_cero,960,0.439826,1.384883,0.0,0.962812,2.204639,-0.962812,65.9375,327
+ultimo_mes,960,0.467206,1.084765,0.461414,0.94224,2.11395,-0.016302,65.9375,327
+media_tres_meses,960,0.397123,0.872195,0.436566,0.791475,1.739047,-0.015956,65.9375,327
+ridge,960,0.444599,0.778737,0.495064,0.801151,1.589867,0.026524,65.9375,327
+random_forest,960,0.424934,0.81716,0.466103,0.822473,1.684401,0.092683,65.9375,327

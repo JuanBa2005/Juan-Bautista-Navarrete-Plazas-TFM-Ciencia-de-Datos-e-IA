@@ -1,0 +1,6 @@
+modelo,n,mae_mixto_solo_diagnostico,rmse_mixto_solo_diagnostico,mae_escalado_macro_repuesto,mae_consumo_positivo_mixto_solo_diagnostico,mae_meses_cero_mixto_solo_diagnostico,sesgo_mixto_solo_diagnostico,fallos_cero_exacto_ante_positivo,n_consumos_positivos,n_meses_cero
+siempre_cero,240,0.674583,1.758118,0.271496,2.569841,0.0,-0.674583,63,63,177
+ultimo_mes,240,0.857083,2.047025,0.389234,2.003175,0.449153,0.214167,22,63,177
+media_tres_meses,240,0.745764,1.629879,0.348034,1.512963,0.472693,0.319375,6,63,177
+ridge,240,0.751319,1.380064,0.401014,1.276497,0.564391,0.35622,0,63,177
+random_forest,240,0.66083,1.318728,0.314984,1.440946,0.383162,0.151458,0,63,177

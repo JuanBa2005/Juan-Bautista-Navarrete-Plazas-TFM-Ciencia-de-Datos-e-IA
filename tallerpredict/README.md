@@ -1,18 +1,34 @@
-# Taller Predict
+# TallerPredict — Código, datos y resultados
 
-Este paquete contiene los datos ya preparados, en siete CSV, y dos scripts SQL: uno crea el esquema y otro importa los CSV.
+Este directorio reúne los datos históricos de muestra, su preparación, los experimentos de Machine Learning y los SQL de importación a PostgreSQL. La documentación académica está **fuera de esta carpeta**, en `../docs/entregas/`.
 
-## Estructura
+## Estructura actual
 
-- `sql/`: `esquema_taller_postgresql.sql`, `datos_taller.sql`.
-- `datos/`: `vehicles.csv`, `repair_types.csv`, `parts.csv`, `work_orders.csv`, `repair_events.csv`, `part_usage.csv` e `inventory_movements.csv`.
-- `validacion_datos_taller.json`: resumen de validación original, sin modificaciones.
+```text
+tallerpredict/
+├── datos/                # siete CSV de origen y processed/ (Silver, Gold, informe de calidad)
+├── scripts/
+│   ├── etapa_2/          # preparar_datos.py
+│   └── etapa_3/          # EDA, particiones, baselines, Ridge, Random Forest,
+│                        # validación temporal, protocolo y verificación
+├── resultados/ml/       # resultados de las ocho fases experimentales
+├── sql/                 # esquema e importación PostgreSQL
+├── requirements.txt
+├── requirements-ml.txt
+├── .python-version
+└── VERSIONES.md
+```
 
 ## Importación (PostgreSQL, con `psql`)
 
 1. Abre una terminal **en la carpeta `tallerpredict`** (la que contiene `sql/`, `datos/` y `validacion_datos_taller.json`).
 2. Crea la base de datos si no existe (por ejemplo, `createdb -U postgres taller_predict`).
 3. Ejecuta:
+
+```powershell
+psql -X -v ON_ERROR_STOP=1 -U postgres -d taller_predict -f sql/esquema_taller_postgresql.sql
+psql -X -v ON_ERROR_STOP=1 -U postgres -d taller_predict -f sql/datos_taller.sql
+```
 
 ```bash
 psql -X -v ON_ERROR_STOP=1 -U postgres -d taller_predict -f sql/esquema_taller_postgresql.sql

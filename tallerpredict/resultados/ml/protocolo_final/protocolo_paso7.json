@@ -1,0 +1,29 @@
+{
+  "version": "1.0-paso7-congelado",
+  "origen": "datos/processed/gold_consumo_mensual_repuestos.csv",
+  "momento_prediccion": "Cierre del mes de referencia",
+  "objetivo": "target_next_month_units",
+  "entrenamiento_final": "2021-03 a 2023-08 (30 meses de referencia)",
+  "test_referencia": "2023-09 a 2023-11 (3 meses)",
+  "test_meses_predichos": "2023-10 a 2023-12",
+  "seleccionado": "media_tres_meses",
+  "referencia": "siempre_cero",
+  "candidato_ml_secundario": "random_forest",
+  "metrica_primaria": "MAE escalado macro por repuesto",
+  "escala": "max(media objetivo por repuesto en entrenamiento final, 1)",
+  "criterio_predefinido": "MAE escalado de media_tres_meses <= 0.95 * MAE escalado de siempre_cero",
+  "metricas_secundarias": [
+    "MAE escalado macro sobre observaciones positivas por repuesto",
+    "MAE por unidad",
+    "Sesgo por unidad",
+    "Porcentaje de observaciones positivas",
+    "Análisis de grandes errores y repuestos"
+  ],
+  "precauciones": [
+    "No se usa el test para elegir algoritmo, umbral ni hiperparámetros.",
+    "Los errores globales sin escala mezclan unidades físicas; solo diagnósticos.",
+    "No se demuestra utilidad para compras sin stocks ni costes de error.",
+    "El criterio del 5 % es una regla operativa propuesta, no requisito académico ni validado por el taller.",
+    "Las predicciones no negativas se obtienen recortando a 0."
+  ]
+}
