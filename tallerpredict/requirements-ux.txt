@@ -1,0 +1,6 @@
+# TallerPredict - dependencias Python para la aplicación en Streamlit.
+# Versiones directas fijada.
+# Instalar con: python -m pip install -r requirements-ux.txt
+-r requirements.txt
+streamlit==1.67.0
+pandas==3.1.1
