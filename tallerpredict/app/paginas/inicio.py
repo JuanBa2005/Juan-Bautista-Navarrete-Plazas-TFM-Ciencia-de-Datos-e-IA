@@ -6,6 +6,12 @@ from componentes import (
     tarjeta_funcionalidad,
 )
 
+from servicios.datos import (
+    cargar_gold,
+    reconstruir_historico,
+)
+
+from servicios.predicciones import predecir_global
 
 cabecera()
 
@@ -78,15 +84,55 @@ st.divider()
 with st.container(border=True):
     st.subheader("ℹ️ Información del sistema")
 
-    info1, info2, info3 = st.columns(3)
+    try:
+        gold = cargar_gold()
+        historico = reconstruir_historico(gold)
+        previsiones = predecir_global(historico)
 
-    info1.metric("Repuestos analizados", 80)
-    info2.metric("Horizonte predictivo", "1 mes")
-    info3.metric("Método", "Media móvil")
+        referencia = previsiones[
+            "mes_referencia"
+        ].iloc[0]
 
-    st.caption(
-        "Método seleccionado: media móvil de tres meses. "
-        "MVP basado en una muestra de datos históricos."
-    )
+        mes_prediccion = previsiones[
+            "mes_prediccion"
+        ].iloc[0]
+
+        info1, info2, info3 = st.columns(3)
+
+        info1.metric(
+            "Repuestos analizados",
+            len(previsiones),
+        )
+
+        info2.metric(
+            "Mes de referencia",
+            referencia.strftime("%m/%Y"),
+        )
+
+        info3.metric(
+            "Mes previsto",
+            mes_prediccion.strftime("%m/%Y"),
+        )
+
+        st.caption(
+            "Método seleccionado: media móvil "
+            "de tres meses. Horizonte predictivo: "
+            "un mes."
+        )
+
+        st.info(
+            "MVP basado en una muestra histórica. "
+            "Las previsiones corresponden al mes "
+            "posterior al último mes observado, "
+            "no al mes posterior a la fecha actual."
+        )
+
+    except (OSError, ValueError) as error:
+        st.error(
+            "No se ha podido cargar la información "
+            "del sistema."
+        )
+        st.caption(str(error))
+
 
 pie_pagina()
